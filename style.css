@@ -1,0 +1,1032 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+     background-color: #f8f4ef;
+}
+
+header{
+    background-image: url(images/home-banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%  100%;
+    width: 100%;
+    height: 100vh;
+     box-shadow: 0px 3px 40px  #ffe7d1;
+}
+
+.TravelSmartly{
+    margin-left: 48%;
+    margin-top: 16.5%;
+}
+
+nav{
+    width: 100%;
+    height: 13vh;
+    /* background-color: white; */
+    background-color: #ffe7d1;
+     box-shadow: 0px 3px 7px black;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     gap: 6.5%;
+     position: fixed;
+     top: 0%;
+     z-index: 1000;
+}
+
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+}
+
+.menu a:before{
+    content:'' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid black;
+    transition: 0.4s linear;
+}
+
+.menu a:hover:before{
+    width: 90%;
+}
+.search input{
+    padding: 10px 20px;
+    position: relative;
+    border: 2px solid black;
+    outline: none;
+
+}
+
+.search i{
+    color: black;
+    position: absolute;
+    top: 37%;
+    right: 5%;
+    font-size: 150%;
+}
+
+h1{
+    margin-top: 10%;
+    margin-left: 7%;
+    font-size: 51px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:0 10px 30px #dfa974;
+    
+
+}
+
+.container{
+     margin-top: 5%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2%;
+     cursor: pointer;
+}
+
+.box{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/t1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 70vh;
+    transition:all 0.4s linear;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover{
+    transform: rotate(-10deg);
+}
+.box{
+    transform: rotate(10deg);
+}
+
+.box h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 115%;
+}
+
+.box p{
+   color: white;
+   font-size: 13px;
+   padding-left: 7%;
+   margin-top: 5%;
+}
+
+.box button{
+    padding: 5px 5px;
+    margin-left: 3%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.box hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.box button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+.box1{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/t2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 70vh;
+     transition:all 0.4s linear;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box1:hover{
+    transform: rotate(10deg);
+}
+
+.box1{
+    transform: rotate(-10deg);
+}
+
+.box1 h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 115%;
+}
+
+.box1 p{
+   color: white;
+   font-size: 13px;
+   padding-left: 7%;
+   margin-top: 5%;
+}
+
+.box1 button{
+    padding: 5px 5px;
+    margin-left: 3%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.box1 hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.box1 button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+
+.box2{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/t3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 70vh;
+      transition:all 0.4s linear;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box2:hover{
+    transform: rotate(-10deg);
+}
+
+.box2{
+    transform: rotate(10deg);
+}
+
+
+.box2 h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 115%;
+}
+
+.box2 p{
+   color: white;
+   font-size: 13px;
+   padding-left: 7%;
+   margin-top: 5%;
+}
+
+.box2 button{
+    padding: 5px 5px;
+    margin-left: 3%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.box2 hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.box2 button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+
+.box3{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/t1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+    height: 70vh;
+      transition:all 0.4s linear;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box3:hover{
+    transform: rotate(10deg);
+}
+
+.box3{
+    transform: rotate(-10deg);
+}
+
+.box3 h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 115%;
+}
+
+.box3 p{
+   color: white;
+   font-size: 13px;
+   padding-left: 7%;
+   margin-top: 5%;
+}
+
+.box3 button{
+    padding: 5px 5px;
+    margin-left: 3%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.box3 hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.box3 button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+
+.maindiv{
+    margin-top: 5%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2%;
+     cursor: pointer;
+}
+
+.div1{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/b1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 44vh;
+     transition:all 0.4s linear;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+       transform: rotate(8deg);
+    
+
+}
+
+.div1:hover{
+    transform: scale(1.05);
+    
+}
+.div1 h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 33%;
+}
+
+.div1 p{
+   color: white;
+   font-size: 13px;
+   padding-left: 7%;
+   margin-top: 5%;
+}
+
+.div1 button{
+    padding: 5px 5px;
+    margin-left: 35%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.div1 hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.div1 button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+.div2{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/b2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 17%;
+    height: 48vh;
+     transition:all 0.4s linear;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        transform: rotate(-8deg);
+}
+
+.div2:hover{
+    transform: scale(1.05);
+    
+}
+.div2 h2{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 40%;
+}
+
+.div2 p{
+   color: white;
+   font-size: 13px;
+   padding-left: 19%;
+   margin-top: 5%;
+}
+
+.div2 button{
+    padding: 5px 5px;
+    margin-left: 20.5%;
+    margin-top: 6%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.div2 hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.div2 button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+
+.div3{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/b3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 17%;
+    height: 48vh;
+     transition:all 0.4s linear;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        transform: rotate(8deg);
+}
+.div3:hover{
+    transform: scale(1.05);
+    
+}
+
+.div3 h2{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 40%;
+}
+
+.div3 p{
+   color: white;
+   font-size: 13px;
+   padding-left: 19%;
+   margin-top: 5%;
+}
+
+.div3 button{
+    padding: 5px 5px;
+    margin-left: 20.5%;
+    margin-top: 6%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.div3 hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.div3 button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+
+
+.div4{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/b4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 17%;
+    height: 48vh;
+     transition:all 0.4s linear;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        transform: rotate(-8deg);
+}
+.div4:hover{
+    transform: scale(1.05);
+    
+}
+
+.div4 h2{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 40%;
+}
+
+.div4 p{
+   color: white;
+   font-size: 13px;
+   padding-left: 19%;
+   margin-top: 5%;
+}
+
+.div4 button{
+    padding: 5px 5px;
+    margin-left: 20.5%;
+    margin-top: 6%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.div4 hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.div4 button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+
+.div5{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/b5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 17%;
+    height: 48vh;
+     transition:all 0.4s linear;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        transform: rotate(8deg);
+}
+
+
+.div5:hover{
+    transform: scale(1.05);
+    
+}
+.div5 h2{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 40%;
+}
+
+.div5 p{
+   color: white;
+   font-size: 13px;
+   padding-left: 19%;
+   margin-top: 5%;
+}
+
+.div5 button{
+    padding: 5px 5px;
+    margin-left: 20.5%;
+    margin-top: 6%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.div5 hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.div5 button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+.div6{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/b6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 44vh;
+    transition:all 0.4s linear;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+       transform: rotate(-8deg);
+    
+
+}
+.div6:hover{
+    transform: scale(1.05);
+    
+}
+
+.div6 h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 33%;
+}
+
+.div6 p{
+   color: white;
+   font-size: 13px;
+   padding-left: 7%;
+   margin-top: 5%;
+}
+
+.div6 button{
+    padding: 5px 5px;
+    margin-left: 35%;
+    background-color: #dfa974;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+.div6 hr{
+    width: 91%;
+    margin-left: 4%;
+    
+    
+}
+
+.div6 button:hover{
+    background: transparent;
+     border: 1px solid #dfa974;
+}
+
+.para1{
+     margin-top: 3%;
+    margin-left: 7%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.maincard{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+.card{
+    width: 18%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/p2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: 0.3s;
+    left: 0;
+    transform: rotate(-8deg);
+}
+
+.maincard > *:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.card:hover ~ .card1{
+    left:50px ;
+}
+.card1{
+    width: 18%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/p3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: 0.3s;
+    left: 0;
+    transform: rotate(8deg);
+}
+
+
+.card1:hover {
+    transform: translateY(-20px);
+}
+
+.card1:hover ~ .card2{
+    left:50px ;
+}
+.card2{
+    width: 18%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/WhatsApp\ Image\ 2025-11-09\ at\ 01.07.48_1c00b673.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: 0.3s;
+    left: 0;
+    transform: rotate(-8deg);
+}
+
+
+.card2:hover {
+    transform: translateY(-20px);
+}
+
+.card2:hover ~ .card3{
+    left:50px ;
+}
+.card3{
+    width: 18%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/p5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: 0.3s;
+    left: 0;
+    transform: rotate(8deg);
+}
+
+
+.card3:hover {
+    transform: translateY(-20px);
+}
+
+
+
+.maincard2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6%;
+    cursor: pointer;
+}
+
+.card4{
+    width: 18%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/p6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: 0.3s;
+    left: 0;
+    transform: rotate(-8deg);
+}
+
+.maincard2 > *:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card4:hover {
+    transform: translateY(-20px);
+}
+
+.card4:hover ~ .card5{
+    left:50px ;
+}
+.card5{
+    width: 18%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/WhatsApp\ Image\ 2025-11-09\ at\ 01.07.41_6b6b264b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: 0.3s;
+    left: 0;
+    transform: rotate(8deg);
+}
+
+
+
+.card5:hover {
+    transform: translateY(-20px);
+}
+
+.card5:hover ~ .card6{
+    left:50px ;
+}
+.card6{
+    width: 18%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/WhatsApp\ Image\ 2025-11-09\ at\ 01.07.46_d858bac5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: 0.3s;
+    left: 0;
+    transform: rotate(-8deg);
+}
+
+
+.card6:hover {
+    transform: translateY(-20px);
+}
+
+.card6:hover ~ .card7{
+    left:50px ;
+}
+.card7{
+    width: 18%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(images/WhatsApp\ Image\ 2025-11-09\ at\ 01.07.47_570c9b17.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: 0.3s;
+    left: 0;
+    transform: rotate(8deg);
+}
+
+
+.card7:hover {
+    transform: translateY(-20px);
+}
+
+
+.Popularpost{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    cursor: pointer;
+
+}
+
+.post1{
+    border: 1px solid red;
+    border: none;
+    width: 30%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: #ffe7d1;
+      transform: rotate(8deg);
+       transition:all 0.4s linear;
+       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.post1:hover{
+    transform: scale(1.09);
+}
+.a{
+    margin-top:1% ;
+    margin-right: 6%;
+}
+
+.b{
+    margin-right: 23%;
+   
+}
+
+.b h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.b p{
+    margin-top: 5% ;
+    font-size: 13px;
+}
+.b hr{
+    width: 120%;
+}
+
+footer{
+     background-color: #ffe7d1; 
+     width: 100%;
+     height: 88vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     line-height: 200%;
+}
+
+footer img{
+    width: 10%;
+}
+
+footer p{
+    font-size: 21px;
+    padding-top: 3%;
+}
+
+.last{
+    border: 1px solid red;
+    border:none ;
+    width: 27%;
+     position: relative;
+    
+}
+footer input{
+    padding: 12px 45px;
+    margin-top: 9%;
+    border: 2px solid black;
+    width: 100%;
+    outline: none;
+}
+
+#icon{
+    background-color: black;
+    color: white;
+     padding: 14px 20px;
+     position: absolute;
+    top: 42.5%;
+    left: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon2 i{
+    margin: 10px;
+    padding-top: 23px;
+}
+
+.copy{
+  color:  black;
+  font-size: 16px;
+  text-align: center;
+}
+
+.copy a{
+     padding: 12px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: cursive;
+  border-radius: 7px;
+  background-color: black;
+}
