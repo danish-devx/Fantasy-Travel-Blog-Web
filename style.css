@@ -1029,4 +1029,315 @@ footer input{
   font-family: cursive;
   border-radius: 7px;
   background-color: black;
+
+}
+
+
+@media (max-width: 991.98px) { 
+  nav{
+       
+       height: auto;
+       padding: 15px 15px;
+  }  
+   header{
+    
+    height: 50vh;
+    
+}
+
+.TravelSmartly{
+    margin-left: 45%;
+    margin-top: 17%;
+}
+
+.container{
+     margin-top: 10%;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     
+}
+
+.box{
+  
+    width: 36%;
+    height: auto;
+ 
+}
+
+
+
+.box h2{
+   
+    padding-top: 150%;
+}
+
+.box p{
+   padding-left: 12%;
+   
+}
+
+.box hr{
+    margin-bottom: 10%;
+}
+
+
+
+.box1{
+  
+    width: 36%;
+    height: auto;
+ 
+}
+
+.box1 h2{
+ 
+    padding-top: 150%;
+}
+
+.box1 p{
+ 
+   padding-left: 12%;
+ 
+}
+
+.box1 hr{
+    margin-bottom: 10%;
+}
+
+
+.box2{
+  
+    width: 36%;
+    height: auto;
+    margin-top: 10%;
+ 
+}
+
+.box2 h2{
+
+    padding-top: 150%;
+}
+
+.box2 p{
+
+   padding-left: 12%;
+  
+}
+.box2 hr{
+    margin-bottom: 10%;
+}
+
+
+.box3{
+  
+    width: 36%;
+    height: auto;
+     margin-top: 10%;
+ 
+}
+
+.box3 h2{
+  
+    padding-top: 150%;
+}
+
+.box3 p{
+ 
+   padding-left: 12%;
+  
+}
+
+.box3 hr{
+    margin-bottom: 10%;
+}
+
+
+.maindiv{
+  
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     margin-top: 10%;
+     
+}
+
+.div1{
+    
+    width: 70%;
+    height: auto;
+    
+}
+
+.div1 p{
+    margin-left: 5%;
+}
+
+.div1 hr{
+    margin-bottom: 7%;
+}
+
+.div2{
+    
+     width: 33%;
+    height: auto;
+    margin-top: 7%;
+    
+
+}
+
+.div2 p{
+    margin-left: 6%;
+}
+
+.div2 hr{
+    margin-bottom: 10%;
+}
+.div3{
+    
+     width: 33%;
+    height: auto;
+     margin-top: 7%;
+
+}
+.div3 p{
+    margin-left: 6%;
+}
+
+.div3 hr{
+    margin-bottom: 10%;
+}
+
+.div4{
+    
+     width: 33%;
+    height: auto;
+    
+
+}
+
+.div4 p{
+    margin-left: 6%;
+}
+.div4 hr{
+    margin-bottom: 10%;
+}
+.div5{
+    
+     width: 33%;
+    height: auto;
+    
+
+}
+.div5 p{
+    margin-left: 6%;
+}
+.div5 hr{
+    margin-bottom: 10%;
+}
+.div6{
+    
+    width: 70%;
+    height: auto;
+     margin-top: 7%;
+    
+
+}
+.div6 p{
+    margin-left: 6%;
+}
+.div6 hr{
+    margin-bottom: 7%;
+}
+.maincard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 3%;
+}
+
+.maincard2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.card{
+    /* width: 30%; */
+    height: auto;
+    padding: 130px 125px;
+}
+
+.card1{
+    /* width: 30%; */
+    height: auto;
+    padding: 130px 130px;
+}
+
+.card2{
+    /* width: 30%; */
+    height: auto;
+    padding: 130px 125px;
+}
+
+.card3{
+    /* width: 30%; */
+    height: auto;
+    padding: 130px 125px;
+}
+
+.card4{
+    /* width: 30%; */
+    height: auto;
+    padding: 130px 125px;
+}
+.card5{
+    /* width: 30%; */
+    height: auto;
+    padding: 130px 125px;
+}
+.card6{
+    /* width: 30%; */
+    height: auto;
+    padding: 130px 125px;
+}
+.card7{
+    /* width: 30%; */
+    height: auto;
+    padding: 130px 125px;
+}
+
+.Popularpost{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    
+
+}
+
+.post1{
+    
+    
+    width: 30%;
+    height: auto;
+    
+}
+
+footer{
+     
+     width: 100%;
+     height: auto;
+     padding: 60px 20px;
+}
+
+#icon{
+   
+     position: absolute;
+    top: 34%;
+    left: 90%;
+    
+}
+
+
 }
